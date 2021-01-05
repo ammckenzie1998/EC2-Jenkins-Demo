@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 		
 		PrintWriter pw = resp.getWriter();
 		pw.write("<h1>This is my Jenkins EC2 demo!</h1>");
-		pw.write("<p>Did it auto-build????</p>");
+		pw.write("<p>Did it auto-build??</p>");
 		
 	}
 	
